@@ -11,6 +11,7 @@ let project = Project(
             deploymentTargets: .iOS("17.5"),
             infoPlist: .extendingDefault(
                 with: [
+                    "NSCameraUsageDescription": "카메라 접근 권한이 필요합니다.",
                     "UILaunchScreen": [
                         "UIColorName": "",
                         "UIImageName": "",
