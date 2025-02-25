@@ -59,7 +59,7 @@ struct CameraView: View {
                                 .fill(Color.gray.opacity(0.3))
                                 .frame(width: 40, height: 40)
                             
-                            Image(systemName: "arrow.trianglehead.2.clockwise.rotate.90")
+                            Image(systemName: "arrow.triangle.2.circlepath")
                                 .font(.system(size: 20))
                                 .foregroundColor(.white)
                         }

@@ -8,7 +8,7 @@ let project = Project(
             destinations: [.iPhone, .iPad],
             product: .app,
             bundleId: "io.hogeunjo.RetroTokyo",
-            deploymentTargets: .iOS("17.5"),
+            deploymentTargets: .iOS("16.5"),
             infoPlist: .extendingDefault(
                 with: [
                     "NSCameraUsageDescription": "카메라 접근 권한이 필요합니다.",
