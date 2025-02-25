@@ -26,7 +26,7 @@ final class CameraViewModel: NSObject, ObservableObject {
     }
     
     func switchCamera() {
-        let position: AVCaptureDevice.Position = isFrontCamera ? .front : .back
+        let position: AVCaptureDevice.Position = isFrontCamera ? .back : .front
         camera.switchCamera(to: position)
         isFrontCamera.toggle()
     }
