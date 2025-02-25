@@ -4,7 +4,7 @@ import SwiftUI
 struct RetroTokyoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CameraView()
         }
     }
 }
